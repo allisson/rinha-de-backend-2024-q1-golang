@@ -26,7 +26,7 @@ services:
           memory: "374MB"
 
   api1: &api
-    image: allisson/rinha-de-backend-2024-q1-golang:latest
+    image: quay.io/allisson/rinha-de-backend-2024-q1-golang:latest
     hostname: api1
     environment:
       - RINHA_DATABASE_URL=postgres://rinha:rinha@db:5432/rinha
